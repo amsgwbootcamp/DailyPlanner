@@ -12,13 +12,18 @@ body {
   border-bottom: 10px solid black;
 }
 
+.reset {
+  background-color: teal;
+  color: black;
+}
+
 .time-block{
   text-align: center;
   padding: 27px 15px;
   height: 80px;
   width:100%;
   font-size: 20px;
-  background-color: #06AED5;
+  background-color: transparent;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0; 
@@ -33,7 +38,7 @@ textarea{
   background: transparent;
   border: 1px;
   resize: none;
-  color: teal;
+  color: black;
   border-left: 1px solid black;
   padding-left: 0;
   padding-right: 0;
@@ -44,13 +49,13 @@ textarea{
   margin-right: 0;
   margin-bottom: 0;
   width:100%;
-  background-color: #06AED5;
+  background-color: transparent;
   height: 80px;
 }
 
 .saveBtn {
   font-size: 20px;
-  background-color: #06AED5;
+  background-color: transparent;
   height: 80px;
   text-align: center;
   text-decoration: none;
@@ -85,7 +90,7 @@ row {
 }
 
 container {
-  background-color:  #06AED5;
+  background-color: transparent;
 }
 
 .past {
